@@ -14,7 +14,7 @@
   <ReadMe>https://github.com/Tremblex/blex-nexus</ReadMe>
   <Registry>https://ghcr.io/tremblex/nexus-api:latest</Registry>
   <GitHub>https://github.com/binhex/arch-syncthing</GitHub>
-  <Repository>tremblex/nexus-api</Repository>
+  <Repository>ghcr.io/tremblex/nexus-api</Repository>
   <Project>https://github.com/Tremblex/blex-nexus</Project>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
@@ -42,8 +42,8 @@
       <Value>TODO</Value>
     </Variable>
     <Variable>
-      <Name>UMASK</Name>
-      <Value>000</Value>
+      <Name>ASPNETCORE_ENVIRONMENT</Name>
+      <Value>Development</Value>
     </Variable>
     <Variable>
       <Name>PUID</Name>
@@ -66,7 +66,7 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <WebUI>http://[IP]:[PORT:5000]/</WebUI>
+  <WebUI>http://[IP]:[PORT:80]/swagger/index.html</WebUI>
   <Icon>https://avatars.githubusercontent.com/u/5077439?v=4</Icon>
   <ExtraParams></ExtraParams>
 </Containers>
