@@ -2,7 +2,7 @@
 <Containers>
   <TemplateURL>https://raw.githubusercontent.com/tremblex/blex-docker-templates/master/tremblex/nexus-api.xml</TemplateURL>
   <Beta>False</Beta>
-  <Category>Productivity: Tools: Backup:</Category>
+  <Category>Tools:</Category>
   <Name>nexus-api</Name>
   <Description>
     Nexus Api Description
