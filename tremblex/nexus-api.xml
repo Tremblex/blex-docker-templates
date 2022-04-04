@@ -5,7 +5,7 @@
   <Category>Tools:</Category>
   <Name>nexus-api</Name>
   <Description>
-    Nexus Api Description
+    WARNING: do not run this in bridge mode. Currently only supports port 80, if hosted with bridge, Unraid might be unnaccessible. Host on another IP to prevent problems.
   </Description>
   <Overview>
     Nexus Api Overview
@@ -30,8 +30,16 @@
   </Networking>
   <Environment>
 	<Variable>
-      <Name>FileHostingRepositoryConfig__ApiUrl</Name>
+      <Name>AppConfig__FileHostingRepositoryConfig__ApiUrl</Name>
       <Value>http://nexus-api-staging/</Value>
+    </Variable>
+	<Variable>
+      <Name>AppConfig__SecurityConfig__EncryptionKey</Name>
+      <Value>83ca1011d909e5b012384eb7d5b61e18810ef845b86bb33754ce52dc7cd2bdd7</Value>
+    </Variable>
+	<Variable>
+      <Name>AppConfig__SecurityConfig__TokenExpirationInDays</Name>
+      <Value>30</Value>
     </Variable>
     <Variable>
       <Name>InventoryDbConfig__DatabaseType</Name>
@@ -39,6 +47,14 @@
     </Variable>
     <Variable>
       <Name>InventoryDbConfig__ConnectionString</Name>
+      <Value>TODO</Value>
+    </Variable>
+	<Variable>
+      <Name>AuthDbConfig__DatabaseType</Name>
+      <Value>MSSQL</Value>
+    </Variable>
+    <Variable>
+      <Name>AuthDbConfig__ConnectionString</Name>
       <Value>TODO</Value>
     </Variable>
     <Variable>
