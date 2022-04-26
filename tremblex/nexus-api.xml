@@ -35,18 +35,18 @@
     </Variable>
 	<Variable>
       <Name>AppConfig__SecurityConfig__EncryptionKey</Name>
-      <Value>83ca1011d909e5b012384eb7d5b61e18810ef845b86bb33754ce52dc7cd2bdd7</Value>
+      <Value>8d0325f04da0c8aca4c3f993e27d6838b211f547329c80e74708842b6c687b1d</Value>
     </Variable>
 	<Variable>
       <Name>AppConfig__SecurityConfig__TokenExpirationInDays</Name>
       <Value>30</Value>
     </Variable>
     <Variable>
-      <Name>InventoryDbConfig__DatabaseType</Name>
+      <Name>NexusDbConfig__DatabaseType</Name>
       <Value>MSSQL</Value>
     </Variable>
     <Variable>
-      <Name>InventoryDbConfig__ConnectionString</Name>
+      <Name>NexusDbConfig__ConnectionString</Name>
       <Value>TODO</Value>
     </Variable>
 	<Variable>
